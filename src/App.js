@@ -14,8 +14,8 @@ function App() {
   });
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/exhaustive-deps
     login();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const login = async () => {
